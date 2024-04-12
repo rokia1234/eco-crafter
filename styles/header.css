@@ -4,7 +4,7 @@ header {
 
 img {
     width: 100vw;
-   height: 80vh;
+    height: 80vh;
     object-fit: cover;
 }
 
@@ -28,7 +28,7 @@ img {
 
 .button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #008000; /* Change to green */
     color: white;
     border: none;
     border-radius: 5px;
@@ -38,14 +38,13 @@ img {
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: #006400; /* Change to dark green */
 }
 
-@media  (max-width: 768px) {
+@media (max-width: 768px) {
     .header-content {
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
-    
 }
